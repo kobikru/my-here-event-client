@@ -1,17 +1,3 @@
-קורה-פה - אירועים בבנימין
-תכירו את קורה-פה!!🥳
-
-קורה-פה הוא אפליקציה שמספקת מידע על כל האירועים והפעילויות שקורים באזור בנימין, ישראל - כל האירועים במקום אחד!
-
-תכונות:
-
-צפייה באירועים והופעות באזור בנימין.
-חיפוש וסינון לפי סוגי אירועים שונים.
-מידע על מקומות בילוי ואטרקציות בקרבת מקום.
-אפשרות לפרסם אירועים חדשים ולשתף אותם עם הקהילה.
-האפליקציה נבנתה בטכנולוגיות מתקדמות ועיצוב יעיל, מאפשרת למשתמשים לגלות אירועים מרתקים ולשתף אחד את השני עם העם המקומי. אנחנו מאמינים ביכולת האירועים לגרום לחיבור בין אנשים ולהעשיר את חוויית החיים.
-
-אז בואו, הצטרפו אלינו וגלו מה קורה-פה בבנימין!
 
 KorePo - Events in Benjamin
 Introducing KorePo!!🥳
@@ -28,4 +14,17 @@ The application is built with advanced technologies and efficient design, enabli
 
 So come on, join us, and discover what's happening in Benjamin with KorePo!🥂
 
+קורה-פה - אירועים בבנימין
+תכירו את קורה-פה!!🥳
 
+קורה-פה הוא אפליקציה שמספקת מידע על כל האירועים והפעילויות שקורים באזור בנימין, ישראל - כל האירועים במקום אחד!
+
+תכונות:
+
+צפייה באירועים והופעות באזור בנימין.
+חיפוש וסינון לפי סוגי אירועים שונים.
+מידע על מקומות בילוי ואטרקציות בקרבת מקום.
+אפשרות לפרסם אירועים חדשים ולשתף אותם עם הקהילה.
+האפליקציה נבנתה בטכנולוגיות מתקדמות ועיצוב יעיל, מאפשרת למשתמשים לגלות אירועים מרתקים ולשתף אחד את השני עם העם המקומי. אנחנו מאמינים ביכולת האירועים לגרום לחיבור בין אנשים ולהעשיר את חוויית החיים.
+
+אז בואו, הצטרפו אלינו וגלו מה קורה-פה בבנימין!

@@ -15,6 +15,7 @@ export default function Customized({
   chooseRadio,
   setNewEventPopup,
   setReturnType,
+  setChooseRadio,
   ...props
 }) {
   const [chooseDayOrWeek, setChooseDayOrWeek] = useState("weeks");
@@ -39,7 +40,8 @@ export default function Customized({
   }, [isClicked]);
 
   function saveClick() {
-    console.log(values);
+    setReturnType("בהתאמה אישית")
+    setChooseRadio("בהתאמה אישית")
     setValues({
       ...values,
       isRepeated: true,
@@ -57,11 +59,11 @@ export default function Customized({
     setNewEventPopup(false);
   }
 
-  function cancelClick() {
-    setCustom(false);
-    setNewEventPopup(false);
-    setReturnType("חד-פעמי");
+  function cancelClick(){
+    setCustom(false)
+    setNewEventPopup(false)
   }
+
   function repeatClick() {
     setRepeatSettingsEnd("endNumTimes");
     setIsChoosen("endTimes");

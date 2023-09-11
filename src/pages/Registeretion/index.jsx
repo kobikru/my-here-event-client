@@ -78,7 +78,7 @@ function Registeretion() {
               setUser(res.user);
               setToken(res.token);
               localStorage.setItem("Token", res.token);
-              navigate("/");
+              navigate("/",{ replace: true });
             } else {
               alert(res);
             }

@@ -1,6 +1,5 @@
 import styles from "./style.module.css";
 import { useState, useMemo, useEffect } from "react";
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
@@ -11,13 +10,14 @@ export default function LocationSearchInput({ setSelected }) {
   const [stateLatLng, setStateLatLng] = useState();
 
   const handleSelect = async (address) => {
-    const results = await geocodeByAddress(address);
-    const latLng = await getLatLng(results[0]);
-    setStateLatLng(latLng);
+    const results = await geocodeByAddress(address).catch(err => console.log(err));
+    if (results) {
+      const latLng = await getLatLng(results[0]);
+      setStateLatLng(latLng);
+    }
   };
   useEffect(() => {
     if (stateLatLng) {
-      console.log("Success", stateLatLng);
       setSelected((prev) => [...prev, stateLatLng]);
     }
   }, [stateLatLng]);

@@ -1,4 +1,3 @@
-
 KorePo - Events in Benjamin
 Introducing KorePo!!🥳
 

@@ -18,8 +18,6 @@ import MultiSelect from "../../components/MultiSelect";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import DateDisplay from "../../components/DateDisplay";
-import Map from "../../components/Map";
-import LocationSearchInput from "../../components/LocationSearchInput/LocationSearchInput";
 
 export default function NewEvent({ style = {}, className = "", ...props }) {
   const [fileData, setFileData] = useState([]);
@@ -524,12 +522,6 @@ export default function NewEvent({ style = {}, className = "", ...props }) {
                 <NoRepeatEvent values={values} setValues={setValues} />
               </div>
             );
-          // else if (input.type === "map")
-          //   return (
-          //     <div className={styles.map}>
-          //       <LocationSearchInput />
-          //     </div>
-          //   );
           else if (input.type == "pTimeValidationOK")
             return (
               <p className={styles.errorMessage}>{timeValidationMessage}</p>
@@ -579,8 +571,6 @@ export default function NewEvent({ style = {}, className = "", ...props }) {
             setReturnType={setReturnType}
             chooseRadio={chooseRadio}
             setChooseRadio={setChooseRadio}
-            // constancy={constancy}
-            // setConstancy={setConstancy}
           />
         )}
 

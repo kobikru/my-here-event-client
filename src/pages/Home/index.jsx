@@ -33,6 +33,13 @@ function Home() {
     fetchEventsSearch();
   }, [search]);
 
+  // useEffect(()=>{
+  //   console.log(user);
+  //   if (user==="") {
+  //     setIsPopup(true)
+  //   }
+  // },[user])
+
   const navToNewEvent = () => {
     if (!user) {
       setPopUp(true);

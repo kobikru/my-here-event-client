@@ -61,3 +61,13 @@
 .secondTitle{
     color: var(--text-third-color);
 }
+
+.clickHere {
+    margin-right: 5px;
+    text-decoration: underline;
+    color: var(--bg-secondary-color);
+  }
+
+.hidden{
+    display: none;
+  }

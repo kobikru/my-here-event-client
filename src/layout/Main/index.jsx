@@ -12,6 +12,7 @@ import ResetPassword from "../../components/ResetPassword";
 import ForgetPassword from "../../components/ForgetPassword";
 import { useState } from "react";
 import apiCalls from "../../function/apiCalls";
+import GoogleRegister from "../../pages/GoogleRegister";
 
 
 function Main() {
@@ -32,7 +33,7 @@ function Main() {
 
         <Route path="/forgetPassword" element={<ForgetPassword />} />
         <Route path="/resetPassword" element={<ResetPassword />} />
-
+        <Route path="/googleRegister" element={<GoogleRegister />} />
         <Route
           path="/searchEvent"
           element={<SearchEvent setSearch={setSearch} />}
